@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+:root {
+  --primary-blue: hsl(223, 87%, 63%);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+main {
+  font-size: 1.25rem;
+}
+
+.container {
+  /* outline: 1px solid black; */
+  max-width: 80%;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.heroText h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.heroText h1 span {
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.heroText p {
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.inputTextDiv {
+  margin-bottom: 0.5rem;
+}
+
+.inputEmail {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border-style: solid;
+  font-size: 0.7rem;
+  color: var(--gray);
+}
+
+.errorMsg {
+  font-size: 0.6rem;
+  color: var(--light-red);
+  margin: 0.5rem 0;
+  /* display: none; */
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border-style: solid;
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+form {
+  margin-bottom: 3rem;
+}
+
+.imageDiv {
+  margin-bottom: 5.5rem;
+}
+
+.dashboard {
+  width: 100%;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* a {
+  border: 1px solid var(--pale-blue);
+  display: block;
+} */
+
+a i {
+  color: var(--primary-blue);
+}
+
+.fb,
+.twitter {
+  margin-right: 2rem;
+}
+
+.footer p {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
