@@ -62,9 +62,11 @@ main {
 }
 
 .errorMsg {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   color: var(--light-red);
-  margin: 0.5rem 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+  font-style: italic;
   /* display: none; */
 }
 
@@ -98,10 +100,16 @@ form {
   margin-bottom: 2rem;
 }
 
-/* a {
+a {
   border: 1px solid var(--pale-blue);
-  display: block;
-} */
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
 a i {
   color: var(--primary-blue);
@@ -109,7 +117,7 @@ a i {
 
 .fb,
 .twitter {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .footer p {
