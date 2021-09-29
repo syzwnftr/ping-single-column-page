@@ -124,6 +124,7 @@ a {
   align-items: center;
   text-decoration: none;
   border-radius: 50%;
+  transition: 0.3s;
 }
 
 a:hover,
@@ -135,6 +136,7 @@ a:hover i {
 
 a i {
   color: var(--primary-blue);
+  transition: 0.3s;
 }
 
 .fb,
