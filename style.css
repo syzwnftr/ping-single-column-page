@@ -20,7 +20,7 @@ main {
 }
 
 .container {
-  /* outline: 1px solid black; */
+  outline: 1px solid black;
   max-width: 80%;
   margin: 5rem auto;
   text-align: center;
@@ -123,4 +123,75 @@ a i {
 .footer p {
   font-size: 0.85rem;
   color: var(--gray);
+}
+
+@media (min-width: 55.625rem) {
+  main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroText h1 {
+    font-size: 2rem;
+  }
+
+  .heroText p {
+    font-size: 1.25rem;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .inputTextDiv {
+    order: 0;
+    width: 70%;
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+
+  .inputEmail {
+    padding: 1rem 2rem;
+    border-radius: 1.2rem;
+    outline: none;
+  }
+
+  .btn {
+    order: 0;
+    width: 28%;
+    padding: 1rem 2rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+  }
+
+  .errorMsg {
+    outline: 1px solid black;
+    order: 1;
+    padding-left: 2rem;
+    text-align: left;
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 75rem) {
+  .container {
+    margin: 3rem auto;
+    max-width: 60rem;
+  }
+
+  .heroText h1 {
+    font-size: 3rem;
+  }
+
+  form {
+    margin-bottom: 2.5rem;
+  }
+
+  .errorMsg {
+    font-size: 0.85rem;
+  }
 }
